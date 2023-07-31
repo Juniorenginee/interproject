@@ -1,0 +1,120 @@
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-color: beige;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+font-family: 'Oswald', sans-serif;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-size: 2vw;
+}
+nav ul li{
+    padding: 0.5vw;
+    margin: 0.5vw;
+}
+.brand img{
+    width: 2rem;
+    padding: 0.5vw;
+   
+}
+.brand {
+
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+h1{
+    font-size: 3vw;
+}
+.container{
+    min-height: 72vh;
+    background-color: aqua;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 80%;
+    border-radius: 12px;
+    padding: 1vw;
+    background-image: url('bg.jpg');
+    flex-direction: column;
+    background-size: cover;
+}
+.bottom{
+    position: sticky;
+    background-color: black;
+    height: 10vh;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 4vh;
+}
+
+.songItem{
+    height: 5vh;
+    display: flex;
+    background-color: white;
+    width: 30vw;
+    color: black;
+    margin: 1vw 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    font-size: 1vw;
+}
+
+.songItem img{
+    width: 4vh;
+    margin: 0 1vw;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+#masterSongName{
+    font-size: 1vw;
+}
